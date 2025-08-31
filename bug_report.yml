@@ -1,0 +1,16 @@
+name: Bug Report
+description: File a bug report or feature request
+body:
+  - type: markdown
+    attributes:
+      value: "## Describe the bug or feature"
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug of feature Description
+      placeholder: What happened or what would you like to happen.
+  - type: input
+    id: steps
+    attributes:
+      label: Steps to Reproduce or desction of feature
+      placeholder: 1. Go to... 2. Click...
